@@ -35,7 +35,7 @@ docker-compose up -d
 The following endpoints are available to use:
 
 * http://localhost:8485/api/vehicles/
-* http://localhost:8485/api/vehicles/201/
+* http://localhost:8485/api/vehicles/$id/
 
 ## The Stories
 
