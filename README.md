@@ -62,8 +62,3 @@ A full screen that renders the selected **vehicle details**. All information sho
 ## Bonus
 
 * Searching vehicle in the list
-* React Native Debugger integration
-
-## Deadline ##
-
-When you think **it’s ready**
