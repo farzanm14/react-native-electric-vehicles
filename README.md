@@ -61,4 +61,23 @@ A full screen that renders the selected **vehicle details**. All information sho
 
 ## Bonus
 
-* Searching vehicle in the list
+* Search feature in the vehicle list
+* Maestro tests
+
+## Requirements
+### Technology Stack
+The application should be built using following:
+- React Native (version 0.70.0 or higher)
+- React Query (version 4.0.0 or higher) for data fetching
+- Typescript (version 5.0.0 or higher)
+ 
+The choice of any additional libraries or tools is left to your discretion, but please be prepared to explain your decision for choosing them.
+
+### Code Quality
+The code should be clean, efficient, and easy to read. Make use of comments where necessary to explain your coding decisions. The usage of Typescript should enhance the readability and maintainability of the code.
+
+### Performance
+The application should run smoothly and load data efficiently. This would typically involve minimizing re-renders and efficiently managing state.
+
+### Testing (optional)
+We would like to see some integration tests using Maestro.
