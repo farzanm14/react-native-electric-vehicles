@@ -1,0 +1,19 @@
+{
+  "id": 89,
+  "brand": "Kia",
+  "model": "Soul EV",
+  "version": "33 kWh",
+  "category": "CAR",
+  "connectorType": "CHAdeMO",
+  "recommendedCharger": "50",
+  "chargeSpeedInKw": 50,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/206183868-Laden-met-een-Kia-Soul-EV",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/kia_soul_ev.png",
+  "autochargeCapable": false,
+  "externalParameters": {
+    "typecode": "kia:soul:14:27:other",
+    "ref_consumption": 210,
+    "usable_battery_wh": 27000,
+    "fast_chargers": "chademo"
+  }
+}

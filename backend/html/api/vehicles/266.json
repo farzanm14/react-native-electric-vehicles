@@ -1,0 +1,19 @@
+{
+  "id": 266,
+  "brand": "Dacia",
+  "model": "Spring Electric ",
+  "version": "26,8 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "50",
+  "chargeSpeedInKw": 30,
+  "helpUrl": "https://support.fastned.nl/hc/nl",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Dacia-Spring-Electric.jpg",
+  "autochargeCapable": true,
+  "externalParameters": {
+    "typecode": "energica:ego:20:19:none",
+    "ref_consumption": "170",
+    "usable_battery_wh": "26800",
+    "fast_chargers": "ccs"
+  }
+}

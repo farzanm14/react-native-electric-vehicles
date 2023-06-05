@@ -1,0 +1,19 @@
+{
+  "id": 141,
+  "brand": "Kia",
+  "model": "e-Soul",
+  "version": "39 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "50",
+  "chargeSpeedInKw": 45,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/360020644833-Laden-met-een-Kia-e-Soul",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Kia-e-Soul.png",
+  "autochargeCapable": true,
+  "externalParameters": {
+    "typecode": "hyundai:kona:19:39:other",
+    "ref_consumption": "176",
+    "usable_battery_wh": "39200",
+    "fast_chargers": "176"
+  }
+}

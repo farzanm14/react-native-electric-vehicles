@@ -1,0 +1,19 @@
+{
+  "id": 119,
+  "brand": "Tesla",
+  "model": "Model Y",
+  "version": "Standard Range",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "150+",
+  "chargeSpeedInKw": 165,
+  "helpUrl": "https://support.fastned.nl/hc/nl",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Tesla_Y.png",
+  "autochargeCapable": true,
+  "externalParameters": {
+    "typecode": "tesla:my:19:bt35:none",
+    "ref_consumption": 175,
+    "usable_battery_wh": 51000,
+    "fast_chargers": "SC,ccs,tesla_ccs"
+  }
+}

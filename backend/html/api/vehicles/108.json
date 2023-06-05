@@ -1,0 +1,19 @@
+{
+  "id": 108,
+  "brand": "Renault",
+  "model": "ZOE",
+  "version": "AC Quickcharge",
+  "category": "CAR",
+  "connectorType": "AC",
+  "recommendedCharger": "50",
+  "chargeSpeedInKw": 43,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/205695157-Laden-met-een-Renault-ZOE",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/renault_zoe.png",
+  "autochargeCapable": false,
+  "externalParameters": {
+    "typecode": "renault:zoe:r240:22:other",
+    "ref_consumption": 210,
+    "usable_battery_wh": 23300,
+    "fast_chargers": "type2,type2_cable"
+  }
+}

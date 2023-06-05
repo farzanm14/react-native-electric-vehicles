@@ -1,0 +1,19 @@
+{
+  "id": 268,
+  "brand": "Ford",
+  "model": "Mach-E ER/GT",
+  "version": "98,7 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "150+",
+  "chargeSpeedInKw": 150,
+  "helpUrl": "https://support.fastned.nl/hc/nl",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Ford-Mustang-Mach-e.jpg",
+  "autochargeCapable": true,
+  "externalParameters": {
+    "typecode": "ford:mach-e:21:er:awd",
+    "ref_consumption": "230",
+    "usable_battery_wh": "88000",
+    "fast_chargers": "ccs"
+  }
+}

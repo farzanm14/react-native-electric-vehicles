@@ -1,0 +1,19 @@
+{
+  "id": 269,
+  "brand": "Mercedes-Benz",
+  "model": "GLE",
+  "version": "31,2 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "50",
+  "chargeSpeedInKw": 65,
+  "helpUrl": "https://support.fastned.nl/hc/nl",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Mercedes-GLE-350-de.png",
+  "autochargeCapable": true,
+  "externalParameters": {
+    "typecode": "energica:ego:20:19:none",
+    "ref_consumption": "250",
+    "usable_battery_wh": "26800",
+    "fast_chargers": "ccs"
+  }
+}

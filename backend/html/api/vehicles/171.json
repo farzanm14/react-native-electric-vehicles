@@ -1,0 +1,19 @@
+{
+  "id": 171,
+  "brand": "Volvo",
+  "model": "XC40 Recharge",
+  "version": "75 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "150+",
+  "chargeSpeedInKw": 150,
+  "helpUrl": "https://support.fastned.nl/hc/nl",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Volvo-XC40-Recharge.png",
+  "autochargeCapable": true,
+  "externalParameters": {
+    "typecode": "volvo:xc40:20:75",
+    "ref_consumption": "215",
+    "usable_battery_wh": "72000",
+    "fast_chargers": "ccs"
+  }
+}

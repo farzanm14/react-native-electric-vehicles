@@ -1,0 +1,19 @@
+{
+  "id": 331,
+  "brand": "Volkswagen",
+  "model": "ID.4",
+  "version": "52 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "150+",
+  "chargeSpeedInKw": 100,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/360016837758-Laden-met-een-Volkswagen-ID-4",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Volkswagen-ID.4.jpg",
+  "autochargeCapable": false,
+  "externalParameters": {
+    "typecode": "volkswagen:id3:20:58:mr",
+    "ref_consumption": "212",
+    "usable_battery_wh": "58000",
+    "fast_chargers": "ccs"
+  }
+}

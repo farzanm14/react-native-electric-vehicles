@@ -1,0 +1,19 @@
+{
+  "id": 131,
+  "brand": "Energica",
+  "model": "Ego / Eva / Esse",
+  "version": "13,4 kWh",
+  "category": "MOTORCYCLE",
+  "connectorType": "CCS",
+  "recommendedCharger": "50",
+  "chargeSpeedInKw": 23,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/226915647-Laden-met-een-elektrische-motor",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Eva_3e_serie_13_4kWh.png",
+  "autochargeCapable": true,
+  "externalParameters": {
+    "typecode": "energica:ego:20:12:none",
+    "ref_consumption": "118",
+    "usable_battery_wh": "11700",
+    "fast_chargers": "ccs"
+  }
+}

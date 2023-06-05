@@ -1,0 +1,19 @@
+{
+  "id": 112,
+  "brand": "Smart ",
+  "model": "Electric Drive",
+  "version": "opt. 22 kW onboard charger",
+  "category": "CAR",
+  "connectorType": "AC",
+  "recommendedCharger": "50",
+  "chargeSpeedInKw": 22,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/206382527-Laden-met-een-Smart-Electric-Drive",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/smart_electric_drive.png",
+  "autochargeCapable": false,
+  "externalParameters": {
+    "typecode": "smart:ed3:12:18:fortwo",
+    "ref_consumption": 216,
+    "usable_battery_wh": 17600,
+    "fast_chargers": "type2,type2_cable"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 270,
+  "brand": "Opel",
+  "model": "Mokka-e",
+  "version": "50 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "150+",
+  "chargeSpeedInKw": 100,
+  "helpUrl": "https://support.fastned.nl/hc/nl",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Opel-Mokka-e.jpg",
+  "autochargeCapable": true,
+  "externalParameters": {
+    "typecode": "peugeot:e2008:20:48",
+    "ref_consumption": "200",
+    "usable_battery_wh": "47500",
+    "fast_chargers": "ccs"
+  }
+}

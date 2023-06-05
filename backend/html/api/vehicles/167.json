@@ -1,0 +1,19 @@
+{
+  "id": 167,
+  "brand": "Mazda",
+  "model": "MX-30",
+  "version": "35,5 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "50",
+  "chargeSpeedInKw": 50,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/360012887838-Laden-met-de-Mazda-MX-30",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Mazda-MX-30.png",
+  "autochargeCapable": false,
+  "externalParameters": {
+    "typecode": "mazda:mx-30:21:32",
+    "ref_consumption": "155",
+    "usable_battery_wh": "35500",
+    "fast_chargers": "ccs"
+  }
+}

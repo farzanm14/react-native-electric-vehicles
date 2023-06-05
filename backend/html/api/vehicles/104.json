@@ -1,0 +1,19 @@
+{
+  "id": 104,
+  "brand": "Opel",
+  "model": "Corsa-e",
+  "version": "50 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "150+",
+  "chargeSpeedInKw": 100,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/360007781857-Laden-met-een-Opel-Corsa-e",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/opel-corsa-e.png",
+  "autochargeCapable": true,
+  "externalParameters": {
+    "typecode": "opel:corsae:20:50",
+    "ref_consumption": 190,
+    "usable_battery_wh": 47500,
+    "fast_chargers": "ccs"
+  }
+}

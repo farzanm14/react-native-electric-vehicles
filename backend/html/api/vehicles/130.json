@@ -1,0 +1,19 @@
+{
+  "id": 130,
+  "brand": "DS3",
+  "model": "Crossback E-Tense",
+  "version": "50 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "150+",
+  "chargeSpeedInKw": 100,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/360020435474-Laden-met-een-DS-3-Crossback-E-Tense",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/DS-DS3-Crossback-50kWh.jpg",
+  "autochargeCapable": false,
+  "externalParameters": {
+    "typecode": "ds:3crossback:20:48",
+    "ref_consumption": 198,
+    "usable_battery_wh": 47500,
+    "fast_chargers": "ccs"
+  }
+}

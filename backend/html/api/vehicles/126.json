@@ -1,0 +1,19 @@
+{
+  "id": 126,
+  "brand": "Peugeot",
+  "model": "iOn",
+  "version": "16 kWh",
+  "category": "CAR",
+  "connectorType": "CHAdeMO",
+  "recommendedCharger": "50",
+  "chargeSpeedInKw": 40,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/360009272654-Laden-met-een-Citro%C3%ABn-C-Zero-Mitsubishi-i-MiEV-of-Peugot-iOn",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Peugot_ion_16kW.png",
+  "autochargeCapable": false,
+  "externalParameters": {
+    "typecode": "peugeot:ion:09:16:other",
+    "ref_consumption": 211,
+    "usable_battery_wh": 16000,
+    "fast_chargers": "chademo"
+  }
+}

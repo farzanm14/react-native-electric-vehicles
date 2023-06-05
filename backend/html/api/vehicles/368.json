@@ -1,0 +1,19 @@
+{
+  "id": 368,
+  "brand": "Mercedes",
+  "model": "EQA",
+  "version": "79,8 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "150+",
+  "chargeSpeedInKw": 100,
+  "helpUrl": "https://support.fastned.nl/hc/nl",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Mercedes_EQA.jpg",
+  "autochargeCapable": true,
+  "externalParameters": {
+    "typecode": "mercedes:eqa:21:60",
+    "ref_consumption": "211",
+    "usable_battery_wh": "67000",
+    "fast_chargers": "ccs"
+  }
+}

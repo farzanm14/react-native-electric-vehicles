@@ -1,0 +1,19 @@
+{
+  "id": 272,
+  "brand": "Skoda",
+  "model": "Enyaq iV 60",
+  "version": "62 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "150+",
+  "chargeSpeedInKw": 100,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/360018339998-Laden-met-een-%C5%A0koda-Enyaq-iV-",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Skoda-Enyaq-iV.jpg",
+  "autochargeCapable": false,
+  "externalParameters": {
+    "typecode": "skoda:enyaq:21:58:meb:heatpump",
+    "ref_consumption": "180",
+    "usable_battery_wh": "58000",
+    "fast_chargers": "ccs"
+  }
+}

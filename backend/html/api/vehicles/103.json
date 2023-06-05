@@ -1,0 +1,27 @@
+{
+  "id": 103,
+  "brand": "Opel",
+  "model": "Ampera-e",
+  "version": "60 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "50",
+  "chargeSpeedInKw": 50,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/115000019368-Laden-met-een-Opel-Ampera-e",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/opel-ampera_e.png",
+  "autochargeCapable": true,
+  "notes": [
+    {
+      "id": 32,
+      "vehicleTypeId": 103,
+      "title": "vehicle_tips.opel_ampera_e.tip_1_title",
+      "description": "vehicle_tips.opel_ampera_e.tip_1_message"
+    }
+  ],
+  "externalParameters": {
+    "typecode": "opel:ampera-e:17:60:other",
+    "ref_consumption": 178,
+    "usable_battery_wh": 60000,
+    "fast_chargers": "ccs"
+  }
+}

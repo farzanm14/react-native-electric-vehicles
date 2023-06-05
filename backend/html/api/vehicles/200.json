@@ -1,0 +1,19 @@
+{
+  "id": 200,
+  "brand": "Fiat",
+  "model": "500e",
+  "version": "24 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "50",
+  "chargeSpeedInKw": 50,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/360016823057-Laden-met-een-Fiat-500e",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Fiat500e.png",
+  "autochargeCapable": true,
+  "externalParameters": {
+    "typecode": "fiat:500e:24:13",
+    "ref_consumption": "160",
+    "usable_battery_wh": "20900",
+    "fast_chargers": "ccs"
+  }
+}

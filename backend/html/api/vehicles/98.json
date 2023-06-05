@@ -1,0 +1,27 @@
+{
+  "id": 98,
+  "brand": "Nissan",
+  "model": "e-NV200 (Evalia) ",
+  "version": "40 kWh",
+  "category": "VAN",
+  "connectorType": "CHAdeMO",
+  "recommendedCharger": "50",
+  "chargeSpeedInKw": 50,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/204784998-Laden-met-een-Nissan-Leaf-e-of-e-NV200",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/nissan_e_nv200_2.png",
+  "autochargeCapable": false,
+  "notes": [
+    {
+      "id": 27,
+      "vehicleTypeId": 98,
+      "title": "vehicle_tips.nissan_e_nv200_evalia.tip_1_title",
+      "description": "vehicle_tips.nissan_e_nv200_evalia.tip_1_message"
+    }
+  ],
+  "externalParameters": {
+    "typecode": "nissan:env200:18:40:none",
+    "ref_consumption": 223,
+    "usable_battery_wh": 34200,
+    "fast_chargers": "chademo"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 140,
+  "brand": "Polestar",
+  "model": "1",
+  "version": "34 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "50",
+  "chargeSpeedInKw": 50,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/205694697-Kan-ik-bij-Fastned-laden-met-mijn-plug-in-hybride-",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Polstar_1.jpg",
+  "autochargeCapable": true,
+  "externalParameters": {
+    "typecode": "---",
+    "ref_consumption": 205,
+    "usable_battery_wh": 27000,
+    "fast_chargers": "ccs"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 369,
+  "brand": "Nissan",
+  "model": "Ariya",
+  "version": "87 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "150+",
+  "chargeSpeedInKw": 130,
+  "helpUrl": "https://support.fastned.nl/hc/nl",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Nissan_Ariya.jpg",
+  "autochargeCapable": true,
+  "externalParameters": {
+    "typecode": "nissan:ariya:21:90",
+    "ref_consumption": "220",
+    "usable_battery_wh": "87000",
+    "fast_chargers": "ccs"
+  }
+}

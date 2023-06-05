@@ -1,0 +1,810 @@
+[
+  {
+    "id": 201,
+    "brand": "Aiways",
+    "model": "U5",
+    "version": "63 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Aiways-U5.png"
+  },
+  {
+    "id": 128,
+    "brand": "Audi",
+    "model": "e-tron 50 Quattro",
+    "version": "71 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/audi_e_tron.png"
+  },
+  {
+    "id": 79,
+    "brand": "Audi",
+    "model": "e-tron 55 Quattro",
+    "version": "95 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/audi_e_tron.png"
+  },
+  {
+    "id": 364,
+    "brand": "Audi",
+    "model": "e-tron GT",
+    "version": "93,4 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Audi-E-Tron-GT.jpg"
+  },
+  {
+    "id": 139,
+    "brand": "Audi",
+    "model": "e-tron Sportback 50 Quattro",
+    "version": "71 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/e-tron_Sportback_55_Quattro.jpg"
+  },
+  {
+    "id": 137,
+    "brand": "Audi",
+    "model": "e-tron Sportback 55 Quattro",
+    "version": "95 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/e-tron_Sportback_55_Quattro.jpg"
+  },
+  {
+    "id": 129,
+    "brand": "BMW",
+    "model": "i3",
+    "version": "42,2 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/bwm_i3.png"
+  },
+  {
+    "id": 80,
+    "brand": "BMW",
+    "model": "i3",
+    "version": "22 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/bwm_i3.png"
+  },
+  {
+    "id": 81,
+    "brand": "BMW",
+    "model": "i3",
+    "version": "33 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/bwm_i3.png"
+  },
+  {
+    "id": 265,
+    "brand": "BMW",
+    "model": "iX3",
+    "version": "80 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/BMW_ix3.png"
+  },
+  {
+    "id": 82,
+    "brand": "Citroën",
+    "model": "Berlingo Electric",
+    "version": "22,5 kWh",
+    "category": "VAN",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/citroen_berlingo.png"
+  },
+  {
+    "id": 83,
+    "brand": "Citroën",
+    "model": "C-Zero",
+    "version": "16 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/citroen_c_zero.png"
+  },
+  {
+    "id": 180,
+    "brand": "Citroën",
+    "model": "Ë-C4",
+    "version": "50 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Citroen-eC4.png"
+  },
+  {
+    "id": 177,
+    "brand": "Citroën",
+    "model": "Ë-Jumpy/Spacetourer",
+    "version": "75 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Citroen-E-Jumpy.png"
+  },
+  {
+    "id": 176,
+    "brand": "Citroën",
+    "model": "Ë-Jumpy/Spacetourer/Berlingo",
+    "version": "50 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Citroen-E-Jumpy.png"
+  },
+  {
+    "id": 266,
+    "brand": "Dacia",
+    "model": "Spring Electric ",
+    "version": "26,8 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Dacia-Spring-Electric.jpg"
+  },
+  {
+    "id": 130,
+    "brand": "DS3",
+    "model": "Crossback E-Tense",
+    "version": "50 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/DS-DS3-Crossback-50kWh.jpg"
+  },
+  {
+    "id": 132,
+    "brand": "Energica",
+    "model": "Ego / Eva / Esse",
+    "version": "21,5 kWh",
+    "category": "MOTORCYCLE",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/EsseEsse9_3eSerieModena21_5kWh.png"
+  },
+  {
+    "id": 131,
+    "brand": "Energica",
+    "model": "Ego / Eva / Esse",
+    "version": "13,4 kWh",
+    "category": "MOTORCYCLE",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Eva_3e_serie_13_4kWh.png"
+  },
+  {
+    "id": 200,
+    "brand": "Fiat",
+    "model": "500e",
+    "version": "24 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Fiat500e.png"
+  },
+  {
+    "id": 199,
+    "brand": "Fiat",
+    "model": "500e",
+    "version": "42 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Fiat500e.png"
+  },
+  {
+    "id": 268,
+    "brand": "Ford",
+    "model": "Mach-E ER/GT",
+    "version": "98,7 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Ford-Mustang-Mach-e.jpg"
+  },
+  {
+    "id": 267,
+    "brand": "Ford",
+    "model": "Mach-E SR",
+    "version": "75,7 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Ford-Mustang-Mach-e.jpg"
+  },
+  {
+    "id": 138,
+    "brand": "Harley-Davidson",
+    "model": "LiveWire",
+    "version": "15,5 kWh",
+    "category": "MOTORCYCLE",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Harley-Davidson-LiveWire.jpg"
+  },
+  {
+    "id": 170,
+    "brand": "Honda",
+    "model": "e ",
+    "version": "35,5 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Honda-e.jpg"
+  },
+  {
+    "id": 85,
+    "brand": "Hyundai",
+    "model": "Ioniq",
+    "version": "30,5 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/hyundai_ioniq.png"
+  },
+  {
+    "id": 86,
+    "brand": "Hyundai",
+    "model": "Ioniq",
+    "version": "38,3 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/hyundai_ioniq.png"
+  },
+  {
+    "id": 365,
+    "brand": "Hyundai",
+    "model": "IONIQ 5",
+    "version": "72,6 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Hyundai_IONIQ_5.jpg"
+  },
+  {
+    "id": 134,
+    "brand": "Hyundai",
+    "model": "Kona",
+    "version": "39 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/hyundai_kona.png"
+  },
+  {
+    "id": 87,
+    "brand": "Hyundai",
+    "model": "Kona",
+    "version": "64 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/hyundai_kona.png"
+  },
+  {
+    "id": 366,
+    "brand": "JAC",
+    "model": "IEV7S",
+    "version": "39 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/JAC-Iev7s.jpg"
+  },
+  {
+    "id": 88,
+    "brand": "Jaguar ",
+    "model": "I-PACE",
+    "version": "90 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Jaguar-I-Pace.png"
+  },
+  {
+    "id": 91,
+    "brand": "Kia",
+    "model": "e-Niro",
+    "version": "64 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/kia_niro_ev.png"
+  },
+  {
+    "id": 298,
+    "brand": "Kia",
+    "model": "e-Niro",
+    "version": "39 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/kia_niro_ev.png"
+  },
+  {
+    "id": 90,
+    "brand": "Kia",
+    "model": "e-Soul",
+    "version": "64 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Kia-e-Soul.png"
+  },
+  {
+    "id": 141,
+    "brand": "Kia",
+    "model": "e-Soul",
+    "version": "39 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Kia-e-Soul.png"
+  },
+  {
+    "id": 89,
+    "brand": "Kia",
+    "model": "Soul EV",
+    "version": "33 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/kia_soul_ev.png"
+  },
+  {
+    "id": 168,
+    "brand": "Lexus",
+    "model": "UX 300e",
+    "version": "54,3 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Lexus-UX-300e.png"
+  },
+  {
+    "id": 367,
+    "brand": "Maxus",
+    "model": "eDeliver3",
+    "version": "53 kWh",
+    "category": "VAN",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Maxus-eDeliver.jpg"
+  },
+  {
+    "id": 167,
+    "brand": "Mazda",
+    "model": "MX-30",
+    "version": "35,5 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Mazda-MX-30.png"
+  },
+  {
+    "id": 93,
+    "brand": "Mercedes",
+    "model": "B-Class Electric Drive",
+    "version": "31 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/mercedes_benz_b_klasse.png"
+  },
+  {
+    "id": 368,
+    "brand": "Mercedes",
+    "model": "EQA",
+    "version": "79,8 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Mercedes_EQA.jpg"
+  },
+  {
+    "id": 92,
+    "brand": "Mercedes",
+    "model": "EQC",
+    "version": "85 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/mercedes_benz_eqc.png"
+  },
+  {
+    "id": 169,
+    "brand": "Mercedes",
+    "model": "EQV",
+    "version": "100 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Mercedes-EQV.png"
+  },
+  {
+    "id": 269,
+    "brand": "Mercedes-Benz",
+    "model": "GLE",
+    "version": "31,2 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Mercedes-GLE-350-de.png"
+  },
+  {
+    "id": 95,
+    "brand": "MG",
+    "model": "ZS EV",
+    "version": "44,5 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/MG_ZS_EV.png"
+  },
+  {
+    "id": 133,
+    "brand": "MINI",
+    "model": "Cooper Electric",
+    "version": "32,6 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Mini_Electric.jpg"
+  },
+  {
+    "id": 96,
+    "brand": "Mitsubishi",
+    "model": " i-MiEV",
+    "version": "16 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/mitsubishi_i_miev.png"
+  },
+  {
+    "id": 370,
+    "brand": "Nissan",
+    "model": "Ariya",
+    "version": "63 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Nissan_Ariya.jpg"
+  },
+  {
+    "id": 369,
+    "brand": "Nissan",
+    "model": "Ariya",
+    "version": "87 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Nissan_Ariya.jpg"
+  },
+  {
+    "id": 97,
+    "brand": "Nissan",
+    "model": "e-NV200 (Evalia)",
+    "version": "24 kWh",
+    "category": "VAN",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/nissan_e_nv200_2.png"
+  },
+  {
+    "id": 98,
+    "brand": "Nissan",
+    "model": "e-NV200 (Evalia) ",
+    "version": "40 kWh",
+    "category": "VAN",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/nissan_e_nv200_2.png"
+  },
+  {
+    "id": 101,
+    "brand": "Nissan",
+    "model": "Leaf",
+    "version": "30 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/nissan_leaf.png"
+  },
+  {
+    "id": 100,
+    "brand": "Nissan",
+    "model": "Leaf",
+    "version": "40 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/nissan_leaf.png"
+  },
+  {
+    "id": 99,
+    "brand": "Nissan",
+    "model": "Leaf",
+    "version": "24 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Nissan_Leaf_12_24kWh.png"
+  },
+  {
+    "id": 102,
+    "brand": "Nissan",
+    "model": "Leaf",
+    "version": "62 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/nissan_leaf.png"
+  },
+  {
+    "id": 103,
+    "brand": "Opel",
+    "model": "Ampera-e",
+    "version": "60 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/opel-ampera_e.png"
+  },
+  {
+    "id": 104,
+    "brand": "Opel",
+    "model": "Corsa-e",
+    "version": "50 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/opel-corsa-e.png"
+  },
+  {
+    "id": 270,
+    "brand": "Opel",
+    "model": "Mokka-e",
+    "version": "50 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Opel-Mokka-e.jpg"
+  },
+  {
+    "id": 174,
+    "brand": "Opel",
+    "model": "Zafira-e/Vivaro-e",
+    "version": "75 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Opel-vivaro-e.png"
+  },
+  {
+    "id": 175,
+    "brand": "Opel",
+    "model": "Zafira-e/Vivaro-e/Combo-e",
+    "version": "50 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Opel-vivaro-e.png"
+  },
+  {
+    "id": 166,
+    "brand": "Peugeot",
+    "model": "e-2008",
+    "version": "50 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Peugot_e_2008.jpg"
+  },
+  {
+    "id": 105,
+    "brand": "Peugeot",
+    "model": "e-208",
+    "version": "50 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Peugot-208-EV.png"
+  },
+  {
+    "id": 178,
+    "brand": "Peugeot",
+    "model": "e-Expert/Traveller",
+    "version": "75 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Peugeot-e-Expert.png"
+  },
+  {
+    "id": 179,
+    "brand": "Peugeot",
+    "model": "e-Expert/Traveller/Rifter",
+    "version": "50 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Peugeot-e-Expert.png"
+  },
+  {
+    "id": 126,
+    "brand": "Peugeot",
+    "model": "iOn",
+    "version": "16 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Peugot_ion_16kW.png"
+  },
+  {
+    "id": 127,
+    "brand": "Peugeot",
+    "model": "iOn",
+    "version": "14,5 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Peugot_ion_16kW.png"
+  },
+  {
+    "id": 140,
+    "brand": "Polestar",
+    "model": "1",
+    "version": "34 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Polstar_1.jpg"
+  },
+  {
+    "id": 142,
+    "brand": "Polestar",
+    "model": "2",
+    "version": "78 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Polestar.png"
+  },
+  {
+    "id": 135,
+    "brand": "Porsche",
+    "model": "Taycan",
+    "version": "79,2 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Porsche-Taycan.png"
+  },
+  {
+    "id": 106,
+    "brand": "Porsche",
+    "model": "Taycan",
+    "version": "93,4 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Porsche-Taycan.png"
+  },
+  {
+    "id": 109,
+    "brand": "Renault",
+    "model": "ZOE",
+    "version": "CCS",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/renault_zoe.png"
+  },
+  {
+    "id": 108,
+    "brand": "Renault",
+    "model": "ZOE",
+    "version": "AC Quickcharge",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/renault_zoe.png"
+  },
+  {
+    "id": 107,
+    "brand": "Renault",
+    "model": "ZOE",
+    "version": "AC",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/renault_zoe.png"
+  },
+  {
+    "id": 111,
+    "brand": "Seat",
+    "model": "Mii electric",
+    "version": "36,8 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Seat_mii_Electric_36_8kW.png"
+  },
+  {
+    "id": 271,
+    "brand": "Seres",
+    "model": "3",
+    "version": "52 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Seres-3.jpg"
+  },
+  {
+    "id": 110,
+    "brand": "Skoda",
+    "model": "Citigo e iV",
+    "version": "36,8 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Skoda_Citigo_e_iV_36_8kW.png"
+  },
+  {
+    "id": 272,
+    "brand": "Skoda",
+    "model": "Enyaq iV 60",
+    "version": "62 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Skoda-Enyaq-iV.jpg"
+  },
+  {
+    "id": 273,
+    "brand": "Skoda",
+    "model": "Enyaq iV 80",
+    "version": "82 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Skoda-Enyaq-iV.jpg"
+  },
+  {
+    "id": 112,
+    "brand": "Smart ",
+    "model": "Electric Drive",
+    "version": "opt. 22 kW onboard charger",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/smart_electric_drive.png"
+  },
+  {
+    "id": 115,
+    "brand": "Tesla",
+    "model": "Model 3",
+    "version": "Standard Range",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/tesla_model_3.png"
+  },
+  {
+    "id": 116,
+    "brand": "Tesla",
+    "model": "Model 3",
+    "version": "Long Range",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/tesla_model_3.png"
+  },
+  {
+    "id": 113,
+    "brand": "Tesla",
+    "model": "Model S",
+    "version": "CHAdeMO-adapter",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Tesla_S.png"
+  },
+  {
+    "id": 117,
+    "brand": "Tesla",
+    "model": "Model S",
+    "version": "CCS adapter",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Tesla_S.png"
+  },
+  {
+    "id": 114,
+    "brand": "Tesla",
+    "model": "Model X",
+    "version": "CHAdeMO-adapter",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Tesla_X.png"
+  },
+  {
+    "id": 118,
+    "brand": "Tesla",
+    "model": "Model X",
+    "version": "CCS adapter",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Tesla_X.png"
+  },
+  {
+    "id": 119,
+    "brand": "Tesla",
+    "model": "Model Y",
+    "version": "Standard Range",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Tesla_Y.png"
+  },
+  {
+    "id": 120,
+    "brand": "Tesla",
+    "model": "Model Y",
+    "version": "Long Range",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Tesla_Y.png"
+  },
+  {
+    "id": 172,
+    "brand": "Toyota",
+    "model": "ProAce / City Electric",
+    "version": "50 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Toyota-ProAce-Electric.png"
+  },
+  {
+    "id": 173,
+    "brand": "Toyota",
+    "model": "ProAce Electric",
+    "version": "75 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Toyota-ProAce-Electric.png"
+  },
+  {
+    "id": 232,
+    "brand": "Vauxhall",
+    "model": "Corsa-e",
+    "version": "50 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Vauxhall-Corsa-E.jpg"
+  },
+  {
+    "id": 274,
+    "brand": "Vauxhall",
+    "model": "Mokka-e",
+    "version": "50 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Opel-Mokka-e.jpg"
+  },
+  {
+    "id": 121,
+    "brand": "Volkswagen",
+    "model": "e-Golf",
+    "version": "24,2 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/volkswagen_e_golf.png"
+  },
+  {
+    "id": 123,
+    "brand": "Volkswagen",
+    "model": "e-Golf",
+    "version": "35,8 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/volkswagen_e_golf.png"
+  },
+  {
+    "id": 125,
+    "brand": "Volkswagen",
+    "model": "e-up!",
+    "version": "18,7 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/volkswagen_e_up.png"
+  },
+  {
+    "id": 124,
+    "brand": "Volkswagen",
+    "model": "e-Up!",
+    "version": "36,8 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/volkswagen_e_up.png"
+  },
+  {
+    "id": 122,
+    "brand": "Volkswagen",
+    "model": "ID.3 Pro",
+    "version": "58 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Volkswagen-ID.3.png"
+  },
+  {
+    "id": 371,
+    "brand": "Volkswagen",
+    "model": "ID.3 Pro S",
+    "version": "82 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Volkswagen-ID.3.png"
+  },
+  {
+    "id": 233,
+    "brand": "Volkswagen",
+    "model": "ID.4",
+    "version": "82 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Volkswagen-ID.4.jpg"
+  },
+  {
+    "id": 331,
+    "brand": "Volkswagen",
+    "model": "ID.4",
+    "version": "52 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Volkswagen-ID.4.jpg"
+  },
+  {
+    "id": 171,
+    "brand": "Volvo",
+    "model": "XC40 Recharge",
+    "version": "75 kWh",
+    "category": "CAR",
+    "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Volvo-XC40-Recharge.png"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "id": 83,
+  "brand": "Citroën",
+  "model": "C-Zero",
+  "version": "16 kWh",
+  "category": "CAR",
+  "connectorType": "CHAdeMO",
+  "recommendedCharger": "50",
+  "chargeSpeedInKw": 50,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/360009272654-Laden-met-een-Citro%C3%ABn-C-Zero-Mitsubishi-i-MiEV-of-Peugot-iOn",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/citroen_c_zero.png",
+  "autochargeCapable": false,
+  "externalParameters": {
+    "typecode": "citroen:czero:09:16:other",
+    "ref_consumption": 211,
+    "usable_battery_wh": 16000,
+    "fast_chargers": "chademo"
+  }
+}

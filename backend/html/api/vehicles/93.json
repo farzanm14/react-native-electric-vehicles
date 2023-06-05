@@ -1,0 +1,19 @@
+{
+  "id": 93,
+  "brand": "Mercedes",
+  "model": "B-Class Electric Drive",
+  "version": "31 kWh",
+  "category": "CAR",
+  "connectorType": "AC",
+  "recommendedCharger": "50",
+  "chargeSpeedInKw": 11,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/206354417-Laden-met-een-Mercedes-Benz-B-Class",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/mercedes_benz_b_klasse.png",
+  "autochargeCapable": false,
+  "externalParameters": {
+    "typecode": "mercedes:b:15:28:250e",
+    "ref_consumption": 226,
+    "usable_battery_wh": 28000,
+    "fast_chargers": "type2,type2_cable"
+  }
+}

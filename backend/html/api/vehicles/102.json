@@ -1,0 +1,27 @@
+{
+  "id": 102,
+  "brand": "Nissan",
+  "model": "Leaf",
+  "version": "62 kWh",
+  "category": "CAR",
+  "connectorType": "CHAdeMO",
+  "recommendedCharger": "50",
+  "chargeSpeedInKw": 50,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/204784998-Laden-met-een-Nissan-Leaf-e-of-e-NV200",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/nissan_leaf.png",
+  "autochargeCapable": false,
+  "notes": [
+    {
+      "id": 31,
+      "vehicleTypeId": 102,
+      "title": "vehicle_tips.nissan_leaf.tip_1_title",
+      "description": "vehicle_tips.nissan_leaf.tip_1_message"
+    }
+  ],
+  "externalParameters": {
+    "typecode": "nissan:leaf:19:62:eplus",
+    "ref_consumption": 180,
+    "usable_battery_wh": 54200,
+    "fast_chargers": "chademo"
+  }
+}

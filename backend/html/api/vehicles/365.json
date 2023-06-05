@@ -1,0 +1,19 @@
+{
+  "id": 365,
+  "brand": "Hyundai",
+  "model": "IONIQ 5",
+  "version": "72,6 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "300+",
+  "chargeSpeedInKw": 232,
+  "helpUrl": "https://support.fastned.nl/hc/nl",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Hyundai_IONIQ_5.jpg",
+  "autochargeCapable": true,
+  "externalParameters": {
+    "typecode": "hyundai:ioniq5:22:74",
+    "ref_consumption": "212",
+    "usable_battery_wh": "66000",
+    "fast_chargers": "ccs"
+  }
+}

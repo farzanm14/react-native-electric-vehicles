@@ -1,0 +1,27 @@
+{
+  "id": 125,
+  "brand": "Volkswagen",
+  "model": "e-up!",
+  "version": "18,7 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "50",
+  "chargeSpeedInKw": 40,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/205205168-Laden-met-een-Volkswagen-e-Golf-of-e-up-",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/volkswagen_e_up.png",
+  "autochargeCapable": false,
+  "notes": [
+    {
+      "id": 46,
+      "vehicleTypeId": 125,
+      "title": "vehicle_tips.volkswagen_e_up_18_7kwh.tip_1_title",
+      "description": "vehicle_tips.volkswagen_e_up_18_7kwh.tip_1_message"
+    }
+  ],
+  "externalParameters": {
+    "typecode": "volkswagen:eup:13:26:other",
+    "ref_consumption": 161,
+    "usable_battery_wh": 16000,
+    "fast_chargers": "ccs"
+  }
+}

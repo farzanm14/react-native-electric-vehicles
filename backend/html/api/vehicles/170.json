@@ -1,0 +1,19 @@
+{
+  "id": 170,
+  "brand": "Honda",
+  "model": "e ",
+  "version": "35,5 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "50",
+  "chargeSpeedInKw": 50,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/360013908797-Laden-met-een-Honda-e",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Honda-e.jpg",
+  "autochargeCapable": true,
+  "externalParameters": {
+    "typecode": "honda:e:20:36",
+    "ref_consumption": "190",
+    "usable_battery_wh": "32000",
+    "fast_chargers": "ccs"
+  }
+}

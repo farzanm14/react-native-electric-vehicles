@@ -1,0 +1,19 @@
+{
+  "id": 364,
+  "brand": "Audi",
+  "model": "e-tron GT",
+  "version": "93,4 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "300+",
+  "chargeSpeedInKw": 270,
+  "helpUrl": "https://support.fastned.nl/hc/nl",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Audi-E-Tron-GT.jpg",
+  "autochargeCapable": true,
+  "externalParameters": {
+    "typecode": "audi:etron:21:95:gt",
+    "ref_consumption": "247",
+    "usable_battery_wh": "83700",
+    "fast_chargers": "ccs"
+  }
+}

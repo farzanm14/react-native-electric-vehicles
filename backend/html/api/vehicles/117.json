@@ -1,0 +1,28 @@
+{
+  "id": 117,
+  "brand": "Tesla",
+  "model": "Model S",
+  "version": "CCS adapter",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "150+",
+  "chargeSpeedInKw": 140,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/205418987-Laden-met-een-Tesla-model-S-X",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Tesla_S.png",
+  "autochargeCapable": true,
+  "notes": [
+    {
+      "id": 40,
+      "vehicleTypeId": 117,
+      "title": "vehicle_tips.tesla_models_ccsadapter.tip_1_title",
+      "description": "vehicle_tips.tesla_models_ccsadapter.tip_1_message"
+    }
+  ],
+  "externalParameters": {
+    "typecode": "s75",
+    "ref_consumption": 210,
+    "usable_battery_wh": 72600,
+    "fast_chargers": "SC,chademo,ccs"
+  },
+  "chargeCurve": "{\"175\":{\"20\":133.39,\"21\":134.06,\"22\":134.84,\"23\":135.44,\"24\":136,\"25\":136.6,\"26\":137.08,\"27\":137.53,\"28\":137.97,\"29\":138.27,\"30\":138.61,\"31\":138.9,\"32\":139.28,\"33\":139.5,\"34\":139.83,\"35\":140.13,\"36\":140.5,\"37\":140.8,\"38\":141.14,\"39\":141.47,\"40\":141.8,\"41\":142.14,\"42\":142.55,\"43\":142.84,\"44\":138.79,\"45\":135.65,\"46\":132.32,\"47\":129.36,\"48\":126.41,\"49\":123.13,\"50\":119.6,\"51\":116.9,\"52\":113.98,\"53\":111.06,\"54\":108.12,\"55\":105.68,\"56\":102.54,\"57\":99.56,\"58\":96.63,\"59\":93.48,\"60\":90.01,\"61\":86.86,\"62\":84.26,\"63\":81.91,\"64\":79.15,\"65\":76.52,\"66\":74.06,\"67\":71.62,\"68\":68.89,\"69\":66.42,\"70\":63.67,\"71\":61.13,\"72\":58.08,\"73\":54.64,\"74\":50.04,\"75\":45.78,\"76\":44.09,\"77\":41.02}}"
+}

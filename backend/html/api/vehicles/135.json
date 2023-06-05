@@ -1,0 +1,19 @@
+{
+  "id": 135,
+  "brand": "Porsche",
+  "model": "Taycan",
+  "version": "79,2 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "300+",
+  "chargeSpeedInKw": 225,
+  "helpUrl": "https://support.fastned.nl/hc/nl",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Porsche-Taycan.png",
+  "autochargeCapable": true,
+  "externalParameters": {
+    "typecode": "porsche:taycan:20:96:base",
+    "ref_consumption": 211,
+    "usable_battery_wh": 74000,
+    "fast_chargers": "ccs"
+  }
+}

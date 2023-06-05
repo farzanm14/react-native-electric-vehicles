@@ -1,0 +1,19 @@
+{
+  "id": 176,
+  "brand": "Citroën",
+  "model": "Ë-Jumpy/Spacetourer/Berlingo",
+  "version": "50 kWh",
+  "category": "CAR",
+  "connectorType": "CCS",
+  "recommendedCharger": "150+",
+  "chargeSpeedInKw": 100,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/360015957818-Laden-met-een-Citro%C3%ABn-%C3%8B-Jumpy",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Citroen-E-Jumpy.png",
+  "autochargeCapable": true,
+  "externalParameters": {
+    "typecode": "peugeot:etraveler:21:50:citroen",
+    "ref_consumption": "268",
+    "usable_battery_wh": "45000",
+    "fast_chargers": "ccs"
+  }
+}

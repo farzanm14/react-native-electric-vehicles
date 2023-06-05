@@ -1,0 +1,19 @@
+{
+  "id": 138,
+  "brand": "Harley-Davidson",
+  "model": "LiveWire",
+  "version": "15,5 kWh",
+  "category": "MOTORCYCLE",
+  "connectorType": "CCS",
+  "recommendedCharger": "50",
+  "chargeSpeedInKw": 25,
+  "helpUrl": "https://support.fastned.nl/hc/nl/articles/226915647-Laden-met-een-elektrische-motor",
+  "imageUrl": "https://fastned-app-images.s3-eu-west-1.amazonaws.com/cars/Harley-Davidson-LiveWire.jpg",
+  "autochargeCapable": true,
+  "externalParameters": {
+    "typecode": "hd:livewire:20:16",
+    "ref_consumption": 114,
+    "usable_battery_wh": 15000,
+    "fast_chargers": "ccs"
+  }
+}
