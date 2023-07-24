@@ -58,10 +58,38 @@ A full screen that renders the selected **vehicle details**. All information sho
 * Connector Type
 * Recommended Charger
 * A link to external help screen of selected vehicle on Fastned website
+* A button to Start Charging
+* Users should be **navigated** to the charging screen with **on press** event of Start Charging button.
+
+### FAST-3: Charging screen
+A full screen that showcases a vehicle's charging process along with some details of the vehicle. We will not provide any server project or data, so you will need to design the solution autonomously. You have the freedom to either hardcode the logic in the app or integrate Websocket/Socket IO functionalities — the choice is yours.
+
+#### Screen Elements
+
+* Vehicle Information: Display the Brand, Model, and Version of the selected vehicle.
+* Charging Battery Animation: A dynamic representation of the charging process.
+* State of Charge: Provide a numerical or visual representation of the current charging state.
+* kWh Display (Optional): Show the energy value.
+* Speed Display (Optional): Present the charging speed.
+* Shadow Effect (Optional): Add a shadow beneath the battery animation for depth.
+
+#### Assets:
+
+You will find necessary assets and a sample animation video in the assets folder.
+We use JSON files for animations in conjunction with [Lottie Animations](https://github.com/lottie-react-native/lottie-react-native).
+
+##### Important Notes:
+
+* The barShine speed should decelerate to 0.25 when the state of charge is 80 or less.
+* State of charge values should follow a logical sequence, such as 1, 2, 3, 4, 5, 6...20...25...30, etc., without random jumps.
+* The green segment of the animation, referred to as the progress bar, should visually align with the state of charge. As the charge value increases, the width of the green bar should correspondingly expand.
+
+---
 
 ## Bonus
 
 * Search feature in the vehicle list
+* Showing kWh, speed and shadow under battery animation in charging screen
 * Maestro tests
 
 ## Requirements
