@@ -13,7 +13,8 @@
     "@react-native-community/cli-doctor": "^11.3.6",
     "mkdirp": "^1.0.4",
     "react": "18.2.0",
-    "react-native": "0.72.3"
+    "react-native": "0.72.3",
+    "react-native-size-matters": "^0.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
