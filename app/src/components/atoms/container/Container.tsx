@@ -10,6 +10,8 @@ interface IContainerProps {
 
 export default function Container({ style, children }: IContainerProps) {
   return (
-    <SafeAreaView style={[styles.container, style]}>{children}</SafeAreaView>
+    <SafeAreaView testID="container" style={[styles.container, style]}>
+      {children}
+    </SafeAreaView>
   );
 }

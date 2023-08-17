@@ -15,7 +15,7 @@ describe("Container", () => {
     expect(childElement).toBeTruthy();
   });
 
-  it("applies the provided style prop", () => {
+  it("should applies the provided style prop", () => {
     const customStyle = { backgroundColor: "red" };
     const { getByTestId } = render(
       <Container style={customStyle}>
