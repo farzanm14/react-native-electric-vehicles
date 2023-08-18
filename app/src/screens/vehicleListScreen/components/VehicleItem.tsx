@@ -1,6 +1,6 @@
 import React from "react";
 import { Pressable, View } from "react-native";
-import MyImage from "../../../components/atoms/image/Image";
+import FastImage from "react-native-fast-image";
 import MyText from "../../../components/atoms/text/Text";
 import CategoryComponent from "../../../components/molecules/category/Category";
 import { Vehicle } from "../../../models/Vehicle";
@@ -24,9 +24,12 @@ export default function VehicleItem({ vehicle, onPress }: IVehicleItemProps) {
         </View>
       </View>
       <View>
-        <MyImage
-          uri={vehicle.imageUrl}
-          resizeMode="contain"
+        <FastImage
+          source={{
+            uri: vehicle.imageUrl,
+            priority: FastImage.priority.high,
+          }}
+          resizeMode={FastImage.resizeMode.contain}
           style={styles.image}
         />
         <CategoryComponent

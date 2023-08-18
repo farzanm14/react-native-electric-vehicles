@@ -5,6 +5,7 @@ import styles from "./vehicleHeaderStyles";
 import MyText from "../../atoms/text/Text";
 import CategoryComponent from "../../molecules/category/Category";
 import MyImage from "../../atoms/image/Image";
+import FastImage from "react-native-fast-image";
 
 interface IVehicleHeaderProps {
   vehicle: VehicleDetail;
@@ -13,9 +14,12 @@ interface IVehicleHeaderProps {
 export default function VehicleHeader({ vehicle }: IVehicleHeaderProps) {
   return (
     <>
-      <MyImage
-        uri={vehicle.imageUrl}
-        resizeMode="contain"
+      <FastImage
+        source={{
+          uri: vehicle.imageUrl,
+          priority: FastImage.priority.high,
+        }}
+        resizeMode={FastImage.resizeMode.contain}
         style={styles.image}
       />
       <View style={styles.topRow}>

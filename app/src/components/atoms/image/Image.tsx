@@ -25,7 +25,8 @@ const MyImage: React.FC<IMyImageProps> = ({
     <Image
       testID="imageTestId"
       resizeMode="contain"
-      style={[sizeStyle, props.style, color ? { tintColor: color } : {}]}
+      style={[sizeStyle, props.style]}
+      tintColor={color}
       source={name ? R.images[name] : { uri }}
       {...props}
     />
