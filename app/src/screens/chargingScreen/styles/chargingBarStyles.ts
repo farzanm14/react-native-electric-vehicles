@@ -5,16 +5,7 @@ import { constants } from "../../../services/charging/ChargingService";
 export default StyleSheet.create({
   container: {
     width: "100%",
-    height: "100%",
-  },
-  image: {
-    width: R.dimensions.hMargin40,
-    height: R.dimensions.vMargin40,
-    alignSelf: "center",
-  },
-  backButton: {
-    width: R.dimensions.iconSize12,
-    height: R.dimensions.iconSize12,
+    height: R.dimensions.vMargin300,
   },
   barContainer: {
     width: "100%",
@@ -37,12 +28,20 @@ export default StyleSheet.create({
     fontWeight: "normal",
   },
   title: {
-    lineHeight: 20,
+    lineHeight: R.dimensions.vMargin16,
     fontWeight: "bold",
   },
   percentage: {
     fontWeight: "bold",
     color: R.colors.success,
     fontSize: R.dimensions.fs32,
+  },
+  fullChargedMessage: {
+    marginTop: R.dimensions.vMargin14,
+    fontWeight: "bold",
+    textAlign: "center",
+    alignSelf: "center",
+    color: R.colors.success,
+    fontSize: R.dimensions.fs20,
   },
 });

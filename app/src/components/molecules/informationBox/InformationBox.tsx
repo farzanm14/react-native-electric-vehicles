@@ -26,7 +26,11 @@ export default function InformationBox({
       onPress={onPress}
       style={[styles.boxContainer, style]}
     >
-      <MyImage name={icon} style={styles.icon} color={R.colors.primaryDark} />
+      <MyImage
+        name={icon}
+        style={styles.icon}
+        color={R.colors.primaryVeryDark}
+      />
       <View style={styles.verticalSeparator} />
       <View>
         <MyText style={styles.title}>{title}</MyText>

@@ -1,7 +1,7 @@
-import { Dimensions } from 'react-native';
-import { mvs, s, vs } from 'react-native-size-matters';
+import { Dimensions } from "react-native";
+import { mvs, s, vs } from "react-native-size-matters";
 
-const window = Dimensions.get('window');
+const window = Dimensions.get("window");
 
 export default {
   windowWidth: window.width,
@@ -54,6 +54,7 @@ export default {
   vMargin55: vs(55),
   vMargin64: vs(64),
   vMargin90: vs(90),
+  vMargin300: vs(300),
 
   // horizontal margin
   hMargin2: s(2),

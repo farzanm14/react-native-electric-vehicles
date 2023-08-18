@@ -1,15 +1,14 @@
-import { useNavigation } from '@react-navigation/native';
-import React, { useState } from 'react';
-import { ScrollView, View } from 'react-native';
-import Container from '../../components/atoms/container/Container';
-import MyImageButton from '../../components/atoms/image/MyImageButton';
-import MyText from '../../components/atoms/text/MyText';
-import VehicleHeader from '../../components/organism/vehicleHeader/VehicleHeader';
-import UseVehicleDetail from '../../services/hooks/useVehicleDetail';
-import ChargingBar from './components/ChargingBar';
-import ChargingSkeletonLoading from './components/ChargingSkeletonLoading';
-import styles from './styles/chargingStyles';
-import MyAlert from '../../components/organism/alert/MyAlert';
+import { useNavigation } from "@react-navigation/native";
+import React, { useState } from "react";
+import { ScrollView, View } from "react-native";
+import Container from "../../components/atoms/container/Container";
+import MyImageButton from "../../components/molecules/imageButton/ImageButton";
+import MyAlert from "../../components/organism/alert/Alert";
+import VehicleHeader from "../../components/organism/vehicleHeader/VehicleHeader";
+import UseVehicleDetail from "../../services/hooks/useVehicleDetail";
+import ChargingBar from "./components/ChargingBar";
+import ChargingSkeletonLoading from "./components/ChargingSkeletonLoading";
+import styles from "./styles/chargingStyles";
 
 interface VehicleDetailScreenProps {
   route: any;

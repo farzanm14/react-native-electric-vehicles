@@ -6,6 +6,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Host } from "react-native-portalize";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import R from "../res/R";
+import styles from "./navigationStyles";
 
 const App = () => {
   const scheme = useColorScheme();
@@ -22,7 +23,7 @@ const App = () => {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <GestureHandlerRootView style={{ flex: 1 }}>
+      <GestureHandlerRootView style={styles.rootView}>
         <Host>
           <MyNavigationContainer />
         </Host>

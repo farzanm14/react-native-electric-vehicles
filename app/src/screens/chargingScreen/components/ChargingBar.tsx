@@ -1,5 +1,6 @@
+import React from "react";
 import { useEffect, useRef, useState } from "react";
-import MyText from "../../../components/atoms/text/MyText";
+import MyText from "../../../components/atoms/text/Text";
 import { View } from "react-native";
 import { Charge } from "../../../models/Charge";
 import {
@@ -25,7 +26,6 @@ const ChargingBar = ({ vehicle }: IChargingBarProps) => {
     chargingService.startCharging(chargingService.generateRandomCharge());
     chargingService.data$.subscribe((value) => {
       setCharge(value);
-      console.log(value.percentage);
     });
 
     return () => {
@@ -51,7 +51,7 @@ const ChargingBar = ({ vehicle }: IChargingBarProps) => {
   }, [charge.percentage]);
 
   return (
-    <>
+    <View style={styles.container}>
       <View style={styles.barContainer}>
         <LottieView
           ref={barTopAnimationRef}
@@ -95,7 +95,14 @@ const ChargingBar = ({ vehicle }: IChargingBarProps) => {
           <MyText style={styles.values}>{vehicle.chargeSpeedInKw}kW</MyText>
         </MyText>
       </View>
-    </>
+
+      {charge.percentage == 100 && (
+        <MyText style={styles.fullChargedMessage}>
+          {" "}
+          {`\nFull Charged :)`}
+        </MyText>
+      )}
+    </View>
   );
 };
 

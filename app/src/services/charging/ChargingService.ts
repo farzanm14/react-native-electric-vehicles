@@ -45,14 +45,6 @@ export class ChargingService {
     };
   }
 
-  // useEffect(() => {
-  //   console.log('hey please update perventage', percentage);
-  //   // Decrease speed by 25% when charge is 80 or more
-  //   if (percentage >= 80) {
-  //     setSpeed(constants.slowChargingSpeed);
-  //   }
-  // }, [percentage]);
-
   public killProcess() {
     if (this.interval) {
       clearInterval(this.interval);
