@@ -28,6 +28,7 @@ const ChargingScreen = ({ route }: VehicleDetailScreenProps) => {
     <Container>
       <ScrollView style={styles.container}>
         <MyImageButton
+          testID="backArrowTestId"
           onPress={handleBackPressed}
           name="ic_back"
           resizeMode="contain"

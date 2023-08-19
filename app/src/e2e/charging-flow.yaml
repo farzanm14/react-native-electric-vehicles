@@ -1,0 +1,14 @@
+appId: com.fastned
+---
+- assertVisible: "Citroën"
+- assertVisible: "Berlingo Electric"
+- assertVisible: "van"
+- assertVisible: "22,5 kWh"
+
+- extendedWaitUntil:
+    visible: "Full Charged :)"
+    timeout: 115000
+- tapOn:
+    id: "backArrowTestId"
+- tapOn:
+    id: "infoBoxTestId"

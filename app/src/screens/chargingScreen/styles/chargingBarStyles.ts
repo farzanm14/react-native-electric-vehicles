@@ -37,7 +37,7 @@ export default StyleSheet.create({
     fontSize: R.dimensions.fs32,
   },
   fullChargedMessage: {
-    marginTop: R.dimensions.vMargin14,
+    marginTop: R.dimensions.vMargin24,
     fontWeight: "bold",
     textAlign: "center",
     alignSelf: "center",

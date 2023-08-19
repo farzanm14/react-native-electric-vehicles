@@ -1,0 +1,9 @@
+appId: com.fastned
+---
+- launchApp
+- assertVisible:
+    id: "logoTestId"
+- assertVisible:
+    id: "subTitleTestId"
+
+- runFlow: "vehicles-flow.yaml"

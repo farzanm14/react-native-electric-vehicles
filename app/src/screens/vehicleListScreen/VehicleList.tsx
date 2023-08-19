@@ -42,6 +42,7 @@ const VehicleListScreen = () => {
     return (
       <Container>
         <FlatList
+          testID="vehiclesListTestId"
           ListHeaderComponent={<MyText>Vehicles</MyText>}
           ListEmptyComponent={<NotFound />}
           data={data}

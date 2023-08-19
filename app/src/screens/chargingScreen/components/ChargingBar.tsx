@@ -97,10 +97,7 @@ const ChargingBar = ({ vehicle }: IChargingBarProps) => {
       </View>
 
       {charge.percentage == 100 && (
-        <MyText style={styles.fullChargedMessage}>
-          {" "}
-          {`\nFull Charged :)`}
-        </MyText>
+        <MyText style={styles.fullChargedMessage}>Full Charged :)</MyText>
       )}
     </View>
   );

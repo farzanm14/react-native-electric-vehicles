@@ -1,0 +1,12 @@
+appId: com.fastned
+---
+- extendedWaitUntil:
+    visible: "Berlingo Electric"
+    timeout: 1000
+- assertVisible: "Citroën"
+- assertVisible: "22,5 kWh"
+- assertVisible: "van"
+- assertVisible: "CHAdeMO"
+- assertVisible: "50"
+- tapOn: "Start Charging"
+- runFlow: "charging-flow.yaml"

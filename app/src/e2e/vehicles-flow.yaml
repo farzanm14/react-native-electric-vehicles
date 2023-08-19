@@ -1,0 +1,12 @@
+appId: com.fastned
+---
+- assertVisible:
+    id: "vehiclesListTestId"
+
+- scrollUntilVisible:
+    element:
+      text: "Berlingo Electric"
+    direction: DOWN
+
+- tapOn: "Berlingo Electric"
+- runFlow: "vehicle-flow.yaml"
