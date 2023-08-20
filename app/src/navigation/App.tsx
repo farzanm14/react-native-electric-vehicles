@@ -7,6 +7,7 @@ import { Host } from "react-native-portalize";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import R from "../res/R";
 import styles from "./navigationStyles";
+import FlashMessage from "react-native-flash-message";
 
 const App = () => {
   const scheme = useColorScheme();
@@ -26,6 +27,7 @@ const App = () => {
       <GestureHandlerRootView style={styles.rootView}>
         <Host>
           <MyNavigationContainer />
+          <FlashMessage position="top" />
         </Host>
       </GestureHandlerRootView>
     </QueryClientProvider>

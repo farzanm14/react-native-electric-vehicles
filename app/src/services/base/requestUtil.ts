@@ -6,6 +6,7 @@ import {
   EndpointReqResponse,
 } from "../../models/Endpoint";
 import { BaseUrl, Timeout } from "./endpoints";
+import showFlashMessage from "../../components/atoms/flashMessage/FlashMessage";
 
 const getErrorMessage = (response: any): string => {
   if (response) {
@@ -55,7 +56,12 @@ class requestUtil {
       },
       function (error) {
         if (!error || !error.response) {
-          console.log("NetworkError");
+          showFlashMessage(
+            "Oops, Network Error!",
+            "danger",
+            5000,
+            "Something went wrong! Operation faced with a problem."
+          );
         }
       }
     );

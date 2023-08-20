@@ -1,5 +1,5 @@
-import { useCallback } from 'react';
-import { Linking } from 'react-native';
+import { Linking } from "react-native";
+import showFlashMessage from "../../components/atoms/flashMessage/FlashMessage";
 
 export async function openUrlInBrowser(url: string) {
   // Checking if the link is supported for links with custom URL scheme.
@@ -11,8 +11,7 @@ export async function openUrlInBrowser(url: string) {
       // by some browser in the mobile
       await Linking.openURL(url);
     } else {
-      // unable to open link
-      //TODO show propitiate error
+      showFlashMessage("Sorry! Unable to open link!", "warning");
     }
   }
 }
