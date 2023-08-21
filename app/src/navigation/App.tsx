@@ -1,5 +1,5 @@
 import React from "react";
-import { Platform, StatusBar, useColorScheme } from "react-native";
+import { Platform, StatusBar, useColorScheme, LogBox } from "react-native";
 import "react-native-gesture-handler";
 import MyNavigationContainer from "./NavigationContainer";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
@@ -13,6 +13,7 @@ const App = () => {
   const scheme = useColorScheme();
   const isDarkMode = scheme === "dark";
   const queryClient = new QueryClient();
+  LogBox.ignoreAllLogs();
 
   React.useEffect(() => {
     StatusBar.setBarStyle(isDarkMode ? "light-content" : "dark-content");

@@ -11,6 +11,7 @@ interface IChipProp {
   onPress?: () => void;
   closable?: boolean;
   pressable?: boolean;
+  isSelected?: boolean;
 }
 const MyChip = ({
   title,
@@ -18,13 +19,24 @@ const MyChip = ({
   style,
   closable = false,
   pressable = false,
+  isSelected = false,
 }: IChipProp) => (
   <TouchableOpacity
     testID="chipTestId"
     disabled={!pressable}
-    style={[styles.container, style]}
+    style={[styles.container, isSelected && styles.selectedContainer, style]}
     onPress={onPress}
   >
+    {isSelected && (
+      // <MyImage
+      //   tintColor={R.colors.success}
+      //   testID="closeIconTestId"
+      //   name="ic_search"
+      //   style={styles.checkIcon}
+      //   color={R.colors.gray}
+      // />
+      <MyText style={styles.check}>✔︎</MyText>
+    )}
     <MyText style={styles.title}>{title}</MyText>
     {closable && (
       <MyImage

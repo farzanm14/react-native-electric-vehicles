@@ -1,15 +1,15 @@
-import { StyleSheet } from 'react-native';
-import R from '../../../res/R';
+import { StyleSheet } from "react-native";
+import R from "../../../res/R";
 
 export default StyleSheet.create({
   container: {
-    position: 'absolute',
-    top: R.dimensions.windowHeight / 3,
+    position: "absolute",
+    top: R.dimensions.vMargin90,
     right: 0,
     left: 0,
-    alignItems: 'center',
+    alignItems: "center",
     padding: R.dimensions.hMargin20,
-    justifyContent: 'center',
+    justifyContent: "center",
   },
   icon: {
     width: R.dimensions.windowHeight / 2,

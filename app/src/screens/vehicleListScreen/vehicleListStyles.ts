@@ -85,4 +85,5 @@ export default StyleSheet.create({
     width: R.dimensions.hMargin70,
     height: R.dimensions.vMargin50,
   },
+  listEmpty: { height: R.dimensions.windowHeight },
 });
