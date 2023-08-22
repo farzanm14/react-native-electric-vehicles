@@ -4,7 +4,7 @@ import R from "../../../res/R";
 import MyImage from "../../atoms/image/Image";
 import styles from "./searchBarStyles";
 
-interface ISearchBarProps {
+export interface ISearchBarProps {
   focused: boolean;
   setFocused: (value: boolean) => void;
   setSearchPhrase: Dispatch<SetStateAction<string>>;

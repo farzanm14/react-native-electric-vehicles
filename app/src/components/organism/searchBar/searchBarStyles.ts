@@ -14,7 +14,7 @@ export default StyleSheet.create({
     width: "100%",
   },
   focusedContainer: {
-    borderColor: R.colors.gray,
+    borderColor: R.colors.withAlpha(R.colors.gray, 0.6),
     borderWidth: R.dimensions.borderWidth,
   },
   input: {

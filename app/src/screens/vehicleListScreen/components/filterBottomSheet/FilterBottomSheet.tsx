@@ -10,38 +10,67 @@ import MyButton from "../../../../components/atoms/button/Button";
 interface IFilterProps {
   visible: boolean;
   brands: string[];
-  categories?: Category[];
-  selectedCategory: Category | undefined;
+  categories: Category[];
   handleClose: Dispatch<SetStateAction<boolean>>;
-  updateSelectedBrands: (brands: string[]) => void;
-  updateSelectedCategory: (category: Category) => void;
+  updateSelectedBrands: Dispatch<SetStateAction<string[]>>;
+  selectedCategory: Category | undefined;
+  updateSelectedCategory: Dispatch<SetStateAction<Category | undefined>>;
 }
 
 const FilterBottomSheet: React.FC<IFilterProps> = ({
   visible,
   brands,
   selectedCategory,
-  categories = ["VAN", "CAR", "MOTORCYCLE"],
+  categories,
   handleClose,
   updateSelectedBrands,
   updateSelectedCategory,
 }) => {
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
-  const toggleBrandSelection = (brandId: string) => {
-    setSelectedBrands((prevSelectedBrands) => {
-      if (prevSelectedBrands.includes(brandId)) {
-        return prevSelectedBrands.filter((id) => id !== brandId);
-      } else {
-        return [...prevSelectedBrands, brandId];
-      }
-    });
-  };
 
   function closeBottomSheet() {
     handleClose(false);
   }
 
-  const renderItem = (item: string) => {
+  const renderCategoryItem = (item: Category) => {
+    let isSelected = item == selectedCategory;
+
+    function handleFilterByCategory() {
+      setSelectedBrands([]);
+      updateSelectedBrands([]);
+      updateSelectedCategory(item);
+      closeBottomSheet();
+    }
+    function onToggleCategory() {
+      if (isSelected) {
+        isSelected = false;
+        updateSelectedCategory(undefined);
+      } else {
+        handleFilterByCategory();
+      }
+    }
+    return (
+      <MyChip
+        key={item}
+        pressable
+        isSelected={isSelected}
+        onPress={onToggleCategory}
+        style={styles.chip}
+        title={item.toLowerCase()}
+      />
+    );
+  };
+  const renderBrandItem = (item: string) => {
+    const toggleBrandSelection = (brand: string) => {
+      setSelectedBrands((prevSelectedBrands) => {
+        if (prevSelectedBrands.includes(brand)) {
+          return prevSelectedBrands.filter((id) => id !== brand);
+        } else {
+          return [...prevSelectedBrands, brand];
+        }
+      });
+    };
+
     const isSelected = selectedBrands.includes(item);
 
     return (
@@ -54,25 +83,22 @@ const FilterBottomSheet: React.FC<IFilterProps> = ({
       />
     );
   };
+  const renderBrandsFooter = () => {
+    function handleFilterByBrands() {
+      console.log(" handleSearchForBrands selectedBrands", selectedBrands);
+      updateSelectedBrands(selectedBrands);
+      closeBottomSheet();
+    }
 
-  function handleSearchForCategory(category: Category) {
-    updateSelectedCategory(category);
-    closeBottomSheet();
-  }
-  function handleSearchForBrands() {
-    updateSelectedBrands(selectedBrands);
-    closeBottomSheet();
-  }
-
-  const renderFooter = () => {
     return (
       <MyButton
-        onPress={handleSearchForBrands}
+        onPress={handleFilterByBrands}
         style={styles.submitButton}
         title="Search for Brands"
       />
     );
   };
+
   return (
     <BottomSheet
       visible={visible}
@@ -83,16 +109,7 @@ const FilterBottomSheet: React.FC<IFilterProps> = ({
         Filter By Category
       </MyText>
       <View style={styles.categoriesContainer}>
-        {categories.map((item) => (
-          <MyChip
-            key={item}
-            pressable
-            isSelected={item == selectedCategory}
-            onPress={() => handleSearchForCategory(item)}
-            style={styles.chip}
-            title={item.toLowerCase()}
-          />
-        ))}
+        {categories.map((item) => renderCategoryItem(item))}
       </View>
       <MyText bold style={styles.title}>
         Filter By Brand
@@ -101,8 +118,8 @@ const FilterBottomSheet: React.FC<IFilterProps> = ({
         data={brands}
         contentContainerStyle={styles.contentContainerStyle}
         keyExtractor={(item) => item}
-        renderItem={({ item }) => renderItem(item)}
-        ListFooterComponent={renderFooter}
+        renderItem={({ item }) => renderBrandItem(item)}
+        ListFooterComponent={renderBrandsFooter}
       />
     </BottomSheet>
   );
