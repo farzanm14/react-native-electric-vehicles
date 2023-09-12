@@ -14,13 +14,14 @@ import FilterBottomSheet from "./filterBottomSheet/FilterBottomSheet";
 import { useRefreshByUser } from "../../../services/hooks/useRefreshByUser";
 import { QueryObserverResult, RefetchOptions } from "@tanstack/react-query";
 
-interface IListProps {
+interface ListProps {
   data: Vehicle[];
   refetch: (
     options?: RefetchOptions
   ) => Promise<QueryObserverResult<Vehicle[], Error>>;
 }
-const FilteredList = ({ data, refetch }: IListProps) => {
+
+const FilteredList = ({ data, refetch }: ListProps) => {
   const vehicleService = new FilteringService();
   const { navigate } = useNavigation();
   const [showFilterBottomSheet, setShowFilterBottomSheet] = useState(false);
@@ -51,7 +52,7 @@ const FilteredList = ({ data, refetch }: IListProps) => {
   }
 
   function toggleFilterBottomSheet() {
-    setShowFilterBottomSheet(!showFilterBottomSheet);
+    setShowFilterBottomSheet((value) => !value);
   }
 
   return (

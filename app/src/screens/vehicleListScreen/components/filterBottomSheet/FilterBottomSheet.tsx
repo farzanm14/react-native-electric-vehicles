@@ -28,58 +28,52 @@ const FilterBottomSheet: React.FC<IFilterProps> = ({
 }) => {
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
 
-  function closeBottomSheet() {
+  function handleCloseBottomSheet() {
     handleClose(false);
   }
+  function handleFilterByCategory(item: Category) {
+    setSelectedBrands([]);
+    updateSelectedBrands([]);
+    updateSelectedCategory(item);
+    handleCloseBottomSheet();
+  }
+  function onToggleCategory(item: Category) {
+    if (item == selectedCategory) {
+      updateSelectedCategory(undefined);
+    } else {
+      handleFilterByCategory(item);
+    }
+  }
+  const onToggleBrand = (brand: string) => {
+    setSelectedBrands((prevSelectedBrands) => {
+      if (prevSelectedBrands.includes(brand)) {
+        return prevSelectedBrands.filter((id) => id !== brand);
+      } else {
+        return [...prevSelectedBrands, brand];
+      }
+    });
+  };
 
   const renderCategoryItem = (item: Category) => {
-    let isSelected = item == selectedCategory;
-
-    function handleFilterByCategory() {
-      setSelectedBrands([]);
-      updateSelectedBrands([]);
-      updateSelectedCategory(item);
-      closeBottomSheet();
-    }
-    function onToggleCategory() {
-      if (isSelected) {
-        isSelected = false;
-        updateSelectedCategory(undefined);
-      } else {
-        handleFilterByCategory();
-      }
-    }
     return (
       <MyChip
         key={item}
         pressable
-        isSelected={isSelected}
-        onPress={onToggleCategory}
+        isSelected={item == selectedCategory}
+        onPress={() => onToggleCategory(item)}
         style={styles.chip}
         title={item.toLowerCase()}
       />
     );
   };
   const renderBrandItem = (item: string) => {
-    const toggleBrandSelection = (brand: string) => {
-      setSelectedBrands((prevSelectedBrands) => {
-        if (prevSelectedBrands.includes(brand)) {
-          return prevSelectedBrands.filter((id) => id !== brand);
-        } else {
-          return [...prevSelectedBrands, brand];
-        }
-      });
-    };
-
-    const isSelected = selectedBrands.includes(item);
-
     return (
       <MyChip
         style={styles.chip}
         pressable
         title={item}
-        onPress={() => toggleBrandSelection(item)}
-        isSelected={isSelected}
+        onPress={() => onToggleBrand(item)}
+        isSelected={selectedBrands.includes(item)}
       />
     );
   };
@@ -87,7 +81,7 @@ const FilterBottomSheet: React.FC<IFilterProps> = ({
     function handleFilterByBrands() {
       console.log(" handleSearchForBrands selectedBrands", selectedBrands);
       updateSelectedBrands(selectedBrands);
-      closeBottomSheet();
+      handleCloseBottomSheet();
     }
 
     return (
@@ -102,7 +96,7 @@ const FilterBottomSheet: React.FC<IFilterProps> = ({
   return (
     <BottomSheet
       visible={visible}
-      handleClose={closeBottomSheet}
+      handleClose={handleCloseBottomSheet}
       contentContainerStyle={styles.contentContainer}
     >
       <MyText bold style={styles.title}>

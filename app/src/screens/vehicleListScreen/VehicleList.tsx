@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import MyAlert from "../../components/organism/alert/Alert";
 import TryAgain from "../../components/organism/tryAgain/TryAgain";
 import UseVehiclesList from "../../services/hooks/useVehiclesList";
@@ -8,6 +8,10 @@ import SkeletonLoading from "./components/ListSkeletonLoading";
 const VehicleListScreen = () => {
   const { isLoading, error, data, refetch } = UseVehiclesList();
   const [showError, setShowError] = useState(false);
+
+  useEffect(() => {
+    setShowError(true);
+  }, [error]);
 
   if (isLoading) {
     return <SkeletonLoading />;
