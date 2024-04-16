@@ -68,14 +68,14 @@ Once charging is initiated, the user can monitor the progress of the charging se
 2. Created a **wire frame** for the project. This involves sketching out the basic layout and structure of the user interface to provide a visual representation of what I understand from user stories and data.
 
 > I used Figma to make a simple concept of the app to recognize screens and components.
-> ![wireFrame](docs/demo/wireframe.png)
+> ![wireFrame](app/docs/demo/wireframe.png)
 
 3. I made sure to gather all the necessary materials and resources needed for the project. This includes icons, images, colors, and dimensions that will be used consistently throughout the application. When it came to choosing scalable icons, I considered three options.
 
 - The first option, using react-native-vector-icons, wasn't suitable for this smaller project.
 - The second option, using SVG icons, would have required additional resources for rendering and could have slowed down the application.
 - Ultimately, I decided to go with the third option, which involved adding assets directly to the native builds. This choice allowed me to use PNG images that render instantly and can be scaled by including assets of different qualities. Here's an example of one of the assets I added:
-  > ![nativeAssets](docs/demo/nativeAssets.png)
+  > ![nativeAssets](app/docs/demo/nativeAssets.png)
 
 4. To create an organized and easy-to-manage codebase, I structured the project's folders using a design approach called **atomic design**. This method helps in arranging the code into logical directories and subdirectories, making it simpler to navigate and maintain. [More Info](#architecture)
 
@@ -94,7 +94,7 @@ Once charging is initiated, the user can monitor the progress of the charging se
 11. Implemented the vehiclesService, which **moderates any filters** applied to the given list of vehicles. This service handles the searching of model name and filtering by category or brand of the vehicle based on user preferences.
 
 12. Perform end-to-end **(e2e) testing** using **Maestro**. This involves testing the entire application flow and functionality to ensure that all components and features work together seamlessly.
-    ![e2eGif](docs/test/maestro.gif)
+    ![e2eGif](app/docs/test/maestro.gif)
 
 ## Tech Stack
 
@@ -122,77 +122,6 @@ It's built using following tools:
 ## Architecture
 
 > Atomic design: Breaking down the UI into smaller, independent parts, it promotes reusability, maintainability, and consistency across different screens and applications
-
-<details open>
-<summary>Additional info about architecture</summary>
-<br>
-    src: Root folder of the project.
-    ┣ assets: Static assets, such as Lottie JSONs (png images added to native folders )
-    ┣ components: Reusable UI components
-    ┃ ┣ atoms: Smallest building blocks of your UI
-    ┃ ┃ ┣ bottomSheet
-    ┃ ┃ ┣ button
-    ┃ ┃ ┣ chip
-    ┃ ┃ ┣ container
-    ┃ ┃ ┣ flashMessage
-    ┃ ┃ ┣ image
-    ┃ ┃ ┣ skeleton
-    ┃ ┃ ┗ text
-    ┃ ┣ molecules: Complex UI components that are composed of two or three atoms.
-    ┃ ┃ ┣ category
-    ┃ ┃ ┣ detailBox
-    ┃ ┃ ┣ fabButton
-    ┃ ┃ ┣ imageButton
-    ┃ ┃ ┣ informationBox
-    ┃ ┃ ┗ notFound
-    ┃ ┗ organism: More complex UI components that are composed of multiple molecules and atoms.
-    ┃ ┃ ┣ alert
-    ┃ ┃ ┣ searchBar
-    ┃ ┃ ┣ tryAgain
-    ┃ ┃ ┗ vehicleHeader
-    ┣ e2e: End-to-end testing with Maestro
-    ┃ ┣ charging-flow.yaml
-    ┃ ┣ splash-flow.yaml
-    ┃ ┣ vehicle-flow.yaml
-    ┃ ┗ vehicles-flow.yaml
-    ┣ models: Data models
-    ┃ ┣ Category.ts
-    ┃ ┣ Charge.ts
-    ┃ ┣ Endpoint.ts
-    ┃ ┣ FlashMessage.ts
-    ┃ ┣ Vehicle.ts
-    ┃ ┗ VehicleDetail.ts
-    ┣ navigation: Manage switching between screens
-    ┃ ┣ App.tsx
-    ┃ ┣ NavigationContainer.tsx
-    ┃ ┣ Routes.ts
-    ┃ ┗ navigationStyles.ts
-    ┣ res: Resource files, such as color definitions, responsive dimension definitions & image references
-    ┃ ┣ Colors.ts
-    ┃ ┣ Dimensions.ts
-    ┃ ┗ Images.ts
-    ┣ screens: All screens and their sub components which are not reusable
-    ┃ ┣ chargingScreen
-    ┃ ┣ splashScreen
-    ┃ ┣ vehicleDetailScreen
-    ┃ ┗ vehicleListScreen
-    ┣ services: List of endpoints, a network request skeleton, react query requests and search/filter event of vehicles list
-    ┃ ┣ base
-    ┃ ┃ ┣ endpoints.ts
-    ┃ ┃ ┣ errorMapper.ts
-    ┃ ┃ ┗ requestUtil.ts
-    ┃ ┣ chargingService
-    ┃ ┣ hooks
-    ┃ ┃ ┣ useRefreshByUser.ts
-    ┃ ┃ ┣ useSearchVehicle.ts
-    ┃ ┃ ┣ useVehicleDetail.ts
-    ┃ ┃ ┗ useVehiclesList.ts
-    ┃ ┗ vehiclesListService
-    ┗ utils: Simple Js methods and linking to browser
-    ┃ ┣ helpers
-    ┃ ┗ linking
-
-</details>
 
 ## Overview of the user stories
 
@@ -264,14 +193,14 @@ It's built using following tools:
 
 ## Preview
 
-![Complete Demo](docs/demo/demoVideo.gif)
+![Complete Demo](app/docs/demo/demoVideo.gif)
 
-![wireframe](docs/demo/wireframe.png)
-![splash](docs/demo/listLoading.jpg)
-![search](docs/demo/search.png)
-![filter](docs/demo/filter.png)
-![detail](docs/demo/vehicleDetail.png)
-![charging](docs/demo/charging.png)
+![wireframe](app/docs/demo/wireframe.png)
+![splash](app/docs/demo/listLoading.jpg)
+![search](app/docs/demo/search.png)
+![filter](app/docs/demo/filter.png)
+![detail](app/docs/demo/vehicleDetail.png)
+![charging](app/docs/demo/charging.png)
 
 ## Run Application
 
@@ -354,7 +283,7 @@ yarn android
 ## E2E Testing with Maestro
 
 I have provided a record:
-![e2eTest](docs/test/maestro.gif)
+![e2eTest](app/docs/test/maestro.gif)
 
 If you already have maestro, please run this to see automated test flows:
 
